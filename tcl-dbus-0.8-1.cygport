@@ -1,0 +1,10 @@
+inherit tcl
+
+DESCRIPTION="Tcl DBus bindings"
+HOMEPAGE="http://dbus-tcl.sourceforge.net/"
+SRC_URI="mirror://sourceforge/dbus-tcl/dbus-tcl${PV}.tar.gz"
+SRC_DIR="dbus-tcl${PV}"
+
+PATCH_URI="0.8-cygwin.patch"
+
+CYGCONF_ARGS="--with-tcl=${TCL_LIBDIR}"
