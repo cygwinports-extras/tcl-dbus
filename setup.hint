@@ -1,0 +1,7 @@
+category: Tcl
+requires: libdbus1_3 libgcc1
+sdesc: "Tcl D-Bus bindings"
+ldesc: "The DBus-Tcl project provides a Tcl interface to the D-Bus 
+message bus system. It contains packages that allow Tcl programs to send 
+and receive D-Bus signals, as well as invoke and respond to D-Bus method 
+calls."

@@ -1,0 +1,11 @@
+ORIG_PN="dbus-tcl"
+inherit tcl
+
+DESCRIPTION="Tcl DBus bindings"
+HOMEPAGE="http://dbus-tcl.sourceforge.net/"
+SRC_URI="mirror://sourceforge/dbus-tcl/${ORIG_PN}${PV}.tar.gz"
+SRC_DIR=${ORIG_PN}${PV}
+
+PATCH_URI="1.0-cygwin-libdbus.patch"
+
+DISTCLEANFILES="aclocal.m4 doc/dbus-tcl.html doc/dbus-tcl.n"
